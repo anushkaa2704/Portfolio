@@ -29,7 +29,7 @@ body {
   color: wheat;
   position: relative;
   scroll-margin-top: 8rem;
-  margin-top: 25%;
+  margin-top: 0;
   padding-top: 0rem;
 }
 
@@ -176,6 +176,10 @@ body {
   .timeline-item.left {
   left: 50%;
   text-align: left;
+}
+.certifications
+{
+  margin-top: 25%;
 }
 
 .timeline-content h3{
