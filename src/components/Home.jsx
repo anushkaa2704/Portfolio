@@ -9,7 +9,7 @@ function Home() {
         <div className="home-left">
           <h1>Hi, <span className="highlight">Anushkaa</span> Here!</h1>
           <h2>I'm a Developer</h2>
-          <p>I make the complex simple.</p>
+          <p>Turning Complexity into Clarity.</p>
           <button className="hire-btn" onClick={() => window.open('https://www.linkedin.com/in/anushkaapatil/', '_blank')}>Know more</button>
         </div>
         <div className="home-right">
