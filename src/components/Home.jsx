@@ -10,7 +10,7 @@ function Home() {
           <h1>Hi, <span className="highlight">Anushkaa</span> Here!</h1>
           <h2>I'm a Developer</h2>
           <p>I make the complex simple.</p>
-          <button className="hire-btn">Know more</button>
+          <button className="hire-btn" onClick={() => window.open('https://www.linkedin.com/in/anushkaapatil/', '_blank')}>Know more</button>
         </div>
         <div className="home-right">
           <div className="image-container">

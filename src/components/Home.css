@@ -163,7 +163,7 @@ body {
   }
 }
 
-@media (max-width: 370px) {
+@media (max-width: 420px) {
   .home-left h1 {
   font-size: 2.8rem;
   }

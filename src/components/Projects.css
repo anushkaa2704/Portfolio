@@ -43,7 +43,6 @@ body {
   text-align: center;
   font-size: 3rem;
   margin-bottom: 4rem;
-  font-family: cursive;
   animation: fadeInDown 1s ease forwards;
 }
 
@@ -127,7 +126,7 @@ body {
   }
 }
 
-@media (max-width: 360px){
+@media (max-width: 420px){
   .projects-container{
     display: flex;
     justify-content: center; /* Centers items */

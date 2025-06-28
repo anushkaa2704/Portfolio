@@ -195,7 +195,7 @@ body {
   }
 }
 
-@media (max-width: 360px){
+@media (max-width: 420px){
   .skills-container{
     margin-top: -1.5%;
     display: flex;
@@ -203,6 +203,7 @@ body {
     gap: 50px; /* Adds space between cards */
     flex-wrap: wrap; 
   }
+ 
 
   .card{
      padding: 20px;
