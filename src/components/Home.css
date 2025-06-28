@@ -1,0 +1,182 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    text-transform: .2s linear;
+}
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+    overflow-x: hidden;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background: linear-gradient(to right, #0d0d0d, #1a1a1a, #111111);
+}
+
+.home-section {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(to right, #0d0d0d, #1a1a1a, #111111);
+  padding: 8rem 9%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  overflow: hidden;
+  position: relative;
+}
+
+.home-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5rem;
+  width: 100%;
+  max-width: 1200px; /* Optional max-width for layout */
+}
+
+.home-left {
+  flex: 1;
+  animation: slideInLeft 1s ease forwards;
+  opacity: 0;
+}
+
+.home-left h1 {
+  font-size: 4.5rem;
+  margin-bottom: 1rem;
+}
+
+.home-left h2 {
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+  color: goldenrod;
+}
+
+.home-left p {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #ccc;
+}
+
+.hire-btn {
+  padding: 1rem 2.5rem;
+  font-size: 2.2rem;
+  background-color: goldenrod;
+  color: black;
+  border-radius: 10px;
+  cursor: pointer;
+  border: none;
+  transition: 0.3s ease;
+}
+
+.hire-btn:hover {
+  background-color: #fff;
+  color: var(--pink);
+  transform: scale(1.05);
+}
+
+.highlight {
+  color: var(--pink);
+}
+
+.home-right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  animation: fadeInRight 1.2s ease forwards;
+  opacity: 0;
+}
+
+.image-container {
+  width: 450px;
+  height: 450px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 5px solid goldenrod;
+  box-shadow: 0 0 35px rgba(255, 215, 0, 0.3);
+  transform: scale(0.8);
+  transition: transform 0.3s ease;
+}
+
+.image-container:hover {
+  transform: scale(.9);
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Animations */
+@keyframes slideInLeft {
+  from {
+    transform: translateX(-60px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInRight {
+  from {
+    transform: translateX(60px) scale(0.8);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0) scale(1);
+    opacity: 1;
+  }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .home-content {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .home-left h1 {
+    font-size: 3rem;
+  }
+
+  .home-left h2 {
+    font-size: 2.2rem;
+  }
+
+  .image-container {
+    width: 250px;
+    height: 250px;
+  }
+}
+
+@media (max-width: 370px) {
+  .home-left h1 {
+  font-size: 2.8rem;
+  }
+  .home-left h2 {
+  font-size: 2rem;
+  }
+  .home-left p {
+  font-size: 1.5rem;
+  }
+  .hire-btn{
+    font-size: 1.5rem;
+  }
+
+}
+
+

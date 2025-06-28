@@ -1,0 +1,144 @@
+:root {
+  --pink: #AC2F4F;
+  --blush: #EB638B;
+  --black: #191516;
+  --grey: #382E31;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Times New Roman', Times, serif;
+  outline: none;
+  border: none;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  scroll-padding-top: 6rem;
+  overflow-x: hidden;
+}
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background: linear-gradient(to right, #0d0d0d, #1a1a1a, #111111);
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1000;
+  background: black;
+  padding: 2rem 9%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+  height: 12%;
+}
+
+.logo h2 {
+  font-size: 3rem;
+  color: goldenrod;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.logo i {
+  font-size: 2.5rem;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+.nav-links li {
+  font-size: 2rem;
+  color: #fff;
+  padding: 0 1.5rem;
+  cursor: pointer;
+}
+
+.nav-links li:hover {
+  color: goldenrod;
+  transform: scale(1.1);
+}
+
+.menu-icon {
+  font-size: 2.5rem;
+  cursor: pointer;
+  display: none;
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 1.2rem;
+  background-color: #333;
+  color: white;
+  padding-top: 0.4rem;
+  text-align: center;
+  padding: 0.15rem;
+}
+
+.menu-icon:hover {
+  color: goldenrod;
+  transform: scale(1.1);
+}
+
+/* Responsive */
+@media (max-width: 991px) {
+  html {
+    font-size: 55%;
+  }
+  .navbar {
+    padding: 2rem;
+  }
+}
+
+@media (max-width:580px) {
+.menu-icon {
+    display: block;
+  }
+
+  .nav-links {
+    position: absolute;
+    flex-direction: column;
+    top: 100%;
+    right: 0;
+    left: 50%;
+    border-radius: 15px;
+    background: black;
+    border-top: 0.1rem solid rgba(0,0,0,0.1);
+    display: none;
+  }
+
+  .nav-links.active {
+    display: block;
+  }
+
+  .nav-links li {
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 15px;
+    background: #333;
+    border: 0.1rem solid rgba(0,0,0,0.1);
+  }
+
+  .navbar{
+    height: 10%;
+  }
+
+  .logo h2{
+    font-size: 2.5rem;
+  }
+  .logo i{
+    font-size: 2.5rem;
+  }
+}
