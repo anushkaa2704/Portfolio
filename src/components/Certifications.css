@@ -29,7 +29,7 @@ body {
   color: wheat;
   position: relative;
   scroll-margin-top: 8rem;
-  margin-top: 0;
+  margin-top: 25%;
   padding-top: 0rem;
 }
 
@@ -172,7 +172,7 @@ body {
   }
 }
 
-@media (max-width: 420px) {
+@media (max-width: 450px) {
   .timeline-item.left {
   left: 50%;
   text-align: left;
