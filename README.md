@@ -5,8 +5,7 @@ A modern, responsive portfolio website designed to showcase projects, technical 
 
 ## Tech Stack
 
-- React.js
-- Vite
+- Vite+React.js
 - HTML
 - CSS
 - JavaScript
