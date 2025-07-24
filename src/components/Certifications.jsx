@@ -5,8 +5,8 @@ import './Certifications.css';
 import databaseCert from './images/databaseCert.png';
 import pythonCert from './images/pythonCert.png';
 import sqlCert from './images/sqlCert.png';
-import javaFundamentalsCert from './images/sqlCert.png';
-import genAICert from './images/sqlCert.png';
+import javaFundamentalsCert from './images/JavaFundamentals.pdf';
+import genAICert from '.images/GenAI.pdf';
 
 const certificates = [
    {
