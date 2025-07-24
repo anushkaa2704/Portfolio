@@ -1,12 +1,26 @@
-# React + Vite
+# Personal Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive portfolio website designed to showcase projects, technical skills, and certifications. Built with React.js and Vite for fast performance and smooth user experience.
+**[View Live Portfolio](https://portfolio-azure-six-62.vercel.app/)**
 
-Currently, two official plugins are available:
+## Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Vite+React.js
+- HTML
+- CSS
+- JavaScript
 
-## Expanding the ESLint configuration
+## Key Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+-  **Organized Sections:** Home, About, Projects, Skills, Certifications, and Contact
+-  **Interactive Certificate Viewer:** Browse certifications with creative animations
+-  **Responsive Design:** Optimized for desktops, tablets, and mobile devices
+-  **Contact Form Integration:** Direct messaging via EmailJS
+
+
+
+## Author
+
+[Anushka Patil](https://github.com/your-github-anushkaa2704)
+
+
