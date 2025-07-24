@@ -13,7 +13,7 @@ function Projects() {
         <div className="project-card">
           <img src={project1} alt="Virtual Banking System" className="project-image" />
           <h3>Virtual Banking System</h3>
-          <a href="https://github.com/anushkaa2704" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/anushkaa2704/Virtual-Banking-System" target="_blank" rel="noopener noreferrer">
             <button className="btn">Know More</button>
           </a>
         </div>

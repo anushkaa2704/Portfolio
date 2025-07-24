@@ -5,8 +5,22 @@ import './Certifications.css';
 import databaseCert from './images/databaseCert.png';
 import pythonCert from './images/pythonCert.png';
 import sqlCert from './images/sqlCert.png';
+import javaFundamentalsCert from './images/sqlCert.png';
+import genAICert from './images/sqlCert.png';
 
 const certificates = [
+   {
+    title: 'Introduction to Generative AI',
+    description: 'Certified by: Google Cloud ',
+    year: '2025',
+    image: genAICert,
+  },
+   {
+    title: 'Java Fundamentals',
+    description: 'Certified by: Infosys Springboard ',
+    year: '2025',
+    image: javaFundamentalsCert,
+  },
   {
     title: 'Databases For Developers',
     description: 'Certified by: Oracle Corporation',
@@ -25,6 +39,7 @@ const certificates = [
     year: '2025',
     image: sqlCert,
   },
+  
 ];
 
 
